@@ -1,6 +1,22 @@
 # NBA-Statistics-Scraper
 
-This web scraper is a current WIP that scrapes statistics off of https://stats.nba.com/.
+This python web scraper is a current WIP that scrapes statistics off of https://stats.nba.com/.
+
+# Required python libraries:
+Pandas:
+https://pandas.pydata.org/
+
+Requests:
+http://docs.python-requests.org/en/master/
+
+Selenium(only required once to gather player ID's and names)
+http://selenium-python.readthedocs.io/
+
+JSON:
+https://docs.python.org/2/library/json.html
+
+CSV:
+https://docs.python.org/2/library/csv.html
 
 # Current functionality:
 Get dataframe of team's stats for a particular season. If no season input, defaults to all seasons.
@@ -26,6 +42,10 @@ Parameters: same as playerData.
 
 AllPlayers.createCSV(name, season)
 
+
+#Creates CSV of player names and ID's.
+
+AllPlayers.nameIdCSV():
 
 # To come:
 

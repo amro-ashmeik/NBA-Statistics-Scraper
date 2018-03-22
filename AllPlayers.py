@@ -82,6 +82,7 @@ def playerData(name, season):
 	return df2
 
 #Creates csv of player's overall stats for a particular season.
+#Parameters: same as playerData.
 def createCSV(name, season):
 
 	df = playerData(name, season)

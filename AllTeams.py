@@ -47,8 +47,9 @@ def teamData(team, season=''):
 	os.remove(filename)
 	return df
 
+#Creates CSV of team's overall stats for a particular season.
+#Paramters: same as teamData function
+def createCSV(team, season=''):
 
-def createCSV(team):
-
-	df = getFrame(team)
+	df = teamData(team, season)
 	df.to_csv(team + 'stats.csv')

@@ -26,7 +26,7 @@ AllTeams.teamData(team, season='')
 
 
 Creates CSV of team's overall stats for a particular season.
-Paramters: same as teamData function
+Parameters: same as teamData function
 
 AllTeams.createCSV(team, season='')
 
@@ -49,7 +49,7 @@ AllPlayers.nameIdCSV():
 
 
 #Returns a dataframe of all player's box stats for a particular date and season.
-#Paramaters: season as string(e.g. '2017-18'); date as string(e.g. '03/02/2018' = 'mm/dd/year')
+#Parameters: season as string(e.g. '2017-18'); date as string(e.g. '03/02/2018' = 'mm/dd/year')
 
 AllPlayers.box(season, date)
 

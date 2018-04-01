@@ -74,7 +74,8 @@ and more...
 
 
 
-Example figure: Correlation graph to see how Stephen Curry's performance correlated with his team's performance during the 2015-16 regular season.
+# Example figure: 
+Correlation graph to see how Stephen Curry's performance correlated with his team's performance during the 2015-16 regular season.
 
 ![figure_1](https://user-images.githubusercontent.com/37562350/38170638-6343b7b6-353f-11e8-9c74-fe3e0bff0b27.png)
 

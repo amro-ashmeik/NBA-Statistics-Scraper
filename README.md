@@ -47,6 +47,20 @@ AllPlayers.createCSV(name, season)
 
 AllPlayers.nameIdCSV():
 
+
+#Returns a dataframe of all player's box stats for a particular date and season.
+#Paramaters: season as string(e.g. '2017-18'); date as string(e.g. '03/02/2018' = 'mm/dd/year')
+
+AllPlayers.box(season, date)
+
+
+#Returns dataframe of a player's box stats for each game in a particular season.
+#Parameters: name: string: (Last, First) e.g (Adams, Steven); season: string: XXXX-XX e.g. (2009-10)
+
+AllPlayers.playerbox(name, season)
+
+
+
 # To come:
 
 Team and player statistics by game.

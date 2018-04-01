@@ -70,3 +70,11 @@ Pre/Post-all star weekend statistics.
 Scores for all NBA games by date.
 
 and more...
+
+
+
+
+Example figure: Correlation graph to see how Stephen Curry's performance correlated with his team's performance during the 2015-16 regular season.
+
+![figure_1](https://user-images.githubusercontent.com/37562350/38170620-21813e5c-353f-11e8-8799-3e6aa88e30d4.png)
+
